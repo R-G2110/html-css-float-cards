@@ -7,7 +7,6 @@
 }
 
 body{
-  background-color: chocolate;
   font-family: fredoka;
   text-align: center;
 }
@@ -36,8 +35,6 @@ h1{
   width: 90%;
   margin: 30px auto;
   max-width: 1000px;
-  border: 1px solid black;
-  background-color: chartreuse;
 }
 
 /* Title Section */
@@ -52,9 +49,9 @@ h1{
 /* Team cards Section */
 
 .cards{
-  width: calc(100% / 3);
+  width: calc((100% - 60px) / 3);
   text-align: center;
-  background-color: blueviolet;
+  background-color: #0F0E17;
   border: 1px solid black;
   margin:  10px 10px 30px 10px;
 }
@@ -65,13 +62,27 @@ h1{
 }
 
 .cards .member{
-  padding: 10px;
+  padding: 10px 0 0 10px;
   width: calc(100% - 100px);
-  background-color: white;
+  color: white;
 }
 
 .member li{
   list-style: none;
-  padding-bottom: 10px;
+  text-align: left;
+  padding-bottom: 5px;
+}
 
+.member .member-name{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.role{
+
+}
+
+.member a{
+  text-decoration: none;
+  color: #1573C5;
 }
