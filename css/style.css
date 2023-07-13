@@ -50,10 +50,12 @@ h1{
 
 .cards{
   width: calc((100% - 60px) / 3);
-  
+  min-width: calc((100% - 60px) / 3);
+  border-color: #CECECD;
   text-align: center;
   background-color: #0F0E17;
   margin:  10px 10px 30px 10px;
+  display: block;
 }
 
 .cards img{
@@ -80,7 +82,8 @@ h1{
 }
 
 .role{
-
+  font-size: 14px;
+  
 }
 
 .member a{
