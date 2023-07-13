@@ -50,21 +50,22 @@ h1{
 
 .cards{
   width: calc((100% - 60px) / 3);
+  
   text-align: center;
   background-color: #0F0E17;
-  border: 1px solid black;
   margin:  10px 10px 30px 10px;
 }
 
 .cards img{
   height: 100px;
-
+  display: block;
 }
 
 .cards .member{
   padding: 10px 0 0 10px;
   width: calc(100% - 100px);
   color: white;
+  display: block;
 }
 
 .member li{
