@@ -6,12 +6,14 @@
   box-sizing: border-box; 
 }
 
-container{
-  margin: 100px auto;
-  width: 80%;
-  max-width: 1200px;
-  border: 1px solid black;
-  background-color: chartreuse;
+body{
+  background-color: chocolate;
+  font-family: fredoka;
+  text-align: center;
+}
+
+h1{
+  color: #E52E6C;
 }
 
 .float-left{
@@ -22,4 +24,19 @@ container{
   content: "";
   display: table;
   clear: both;
+}
+
+/* MAIN */
+
+.container{
+  margin: 30px auto;
+  width: 1200px;
+  height: 500px;
+  max-width: 1200px;
+  border: 1px solid black;
+  background-color: chartreuse;
+}
+
+.container.title{
+  font-size: 1.2rem;
 }
